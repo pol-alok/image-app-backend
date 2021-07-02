@@ -20,7 +20,7 @@ public class ImageApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://localhost:3000","https://pol-alok.github.io");
+				registry.addMapping("/**").allowedOrigins("http://localhost:3000","https://pol-alok.github.io","https://img-app.netlify.app/");
 			}
 		};
 	}
